@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_back"
+    tools:context=".Activities.ChooseActivity">
+
+    <Button
+        android:id="@+id/chat"
+
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:shadowColor="@color/agentblue"
+        android:textColorHighlight="@color/agentblue"
+        android:drawableLeft="@drawable/ic_baseline_login_24"
+        android:padding="10dp"
+        android:text="    Admin Login    "
+        android:textColor="#FFF" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:shadowColor="@color/agentblue"
+        android:textColorHighlight="@color/agentblue"
+        android:drawableLeft="@drawable/ic_baseline_format_list_bulleted_24"
+        android:tint="@android:color/white"
+        android:text="Liste des biens"
+
+        android:id="@+id/file"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_back"
+    tools:context=".Activities.ListBienActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liste Des Biens"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:shadowColor="@color/agentblue"
+        android:textColorHighlight="@color/agentblue"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <ListView
+        android:id="@+id/bienList"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

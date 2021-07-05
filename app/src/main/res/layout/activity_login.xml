@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".Authentication.LoginActivity"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/ic_back"
+android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Se connecter"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:shadowColor="@color/agentblue"
+            android:textColorHighlight="@color/agentblue"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:text="Username: "
+            />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mot de passe: "
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:inputType="textPassword"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:shadowColor="@color/agentblue"
+            android:id="@+id/btnLogin"
+            android:padding="10dp"
+            />
+
+
+    </LinearLayout>
+
